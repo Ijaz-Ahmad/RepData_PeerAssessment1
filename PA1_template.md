@@ -114,7 +114,7 @@ g + geom_histogram(aes(fill = ..count..), binwidth = 500) +
 
 The histogram of the total number of steps taken by anonymous individual indicates that the count/frequency of the total number of steps taken between **10,001 to 10,500** appears to be maximum i.e. **count = 7**. The mean of the total number of steps taken is shown by a red vertical dashed line while a thin green vertical dashed line (almost at the same point on x-axis where the mean lies) shows the median.
 
-The vertical lines showing placement of **mean** and **median** almost overlap each other because of the fact that the difference between **mean = 10766**
+The vertical lines showing placement of **mean** and **median** almost overlap each other because of the fact that the difference between **mean = 10766** and **median = 10765** is almost negligible.
 
 ```r
 SumStepsMean
@@ -123,7 +123,7 @@ SumStepsMean
 ```
 ## [1] 10766
 ```
-and **median = 10765**
+
 
 ```r
 SumStepsMedian
@@ -132,7 +132,7 @@ SumStepsMedian
 ```
 ## [1] 10765
 ```
-is almost negligible.
+
 
 **While we have examined the pattern of total number of steps taken each day, it is pertinent to explore**
 
